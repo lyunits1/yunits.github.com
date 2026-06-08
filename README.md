@@ -8,3 +8,256 @@
   <p>Professional lawn care services</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yunits Lawn Mowers</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0b3d0b;
+color:white;
+padding:20px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.logo{
+font-size:1.5rem;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+background:#2e8b57;
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.hero p{
+margin:20px 0;
+font-size:1.2rem;
+}
+
+.btn{
+display:inline-block;
+background:white;
+color:#0b3d0b;
+padding:12px 24px;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+section{
+padding:60px 10%;
+}
+
+.services,
+.pricing-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.card{
+background:#f4f4f4;
+padding:25px;
+border-left:5px solid #2e8b57;
+border-radius:8px;
+}
+
+.contact,
+.quote-section{
+background:#e8f5e9;
+}
+
+form{
+max-width:600px;
+margin:auto;
+}
+
+input,
+select,
+textarea{
+width:100%;
+padding:12px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#0b3d0b;
+color:white;
+border:none;
+padding:12px 24px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+footer{
+background:#0b3d0b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+a{
+color:#0b3d0b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🌱 Yunits Lawn Mowers</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#quote">Quote</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Yunits Lawn Mowers</h1>
+<p>Quality Cuts. Fair Prices.</p>
+<a href="#quote" class="btn">Get a Free Quote</a>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>
+Hi, I'm Lucas Yunits, owner of Yunits Lawn Mowers.
+I provide dependable lawn mowing, trimming, and edging services.
+My goal is to deliver quality work, fair prices, and excellent service
+to every customer.
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+<div class="card">
+<h3>Lawn Mowing</h3>
+<p>Professional grass cutting for residential properties.</p>
+</div>
+
+<div class="card">
+<h3>Trimming & Edging</h3>
+<p>Clean edges and neat trimming around sidewalks and driveways.</p>
+</div>
+</div>
+</section>
+
+<section id="pricing">
+<h2>Pricing</h2>
+
+<div class="pricing-grid">
+<div class="card">
+<h3>Small Yard</h3>
+<p>Starting at $25</p>
+</div>
+
+<div class="card">
+<h3>Medium Yard</h3>
+<p>Starting at $40</p>
+</div>
+
+<div class="card">
+<h3>Large Yard</h3>
+<p>Starting at $60</p>
+</div>
+
+<div class="card">
+<h3>Trimming & Edging</h3>
+<p>Starting at $15</p>
+</div>
+</div>
+</section>
+
+<section id="quote" class="quote-section">
+<h2>Request a Free Quote</h2>
+<br>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="email" placeholder="Email Address">
+
+<input type="text" placeholder="Property Address" required>
+
+<select required>
+<option value="">Select Service</option>
+<option>Lawn Mowing</option>
+<option>Trimming & Edging</option>
+<option>Both Services</option>
+</select>
+
+<textarea rows="5" placeholder="Describe your yard and what you need"></textarea>
+
+<button type="submit">Request Quote</button>
+</form>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<br>
+
+<p><strong>Owner:</strong> Lucas Yunits</p>
+<p><strong>Phone:</strong> (315) 835-1821</p>
+
+<p>
+<strong>Email:</strong>
+<a href="mailto:lyunits1@gmail.com">
+lyunits1@gmail.com
+</a>
+</p>
+</section>
+
+<footer>
+<p>© 2026 Yunits Lawn Mowers | Lucas Yunits | (315) 835-1821 | lyunits1@gmail.com</p>
+</footer>
+
+</body>
+</html>
